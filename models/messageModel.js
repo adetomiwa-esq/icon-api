@@ -5,7 +5,6 @@ const messageSchema = mongoose.Schema(
     email: {
       type: String,
       require: [true, "you need to send "],
-      unique: true,
     },
     from: {
       type: String,
